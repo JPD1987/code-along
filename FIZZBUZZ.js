@@ -32,8 +32,8 @@
 // }
 
 // //random number generator
-// let x = Math.floor(Math.random() * 10);
-// console.log
+// let x = Math.floor(Math.random() * 80);
+// console.log(x)
 
 // // for (let number = 0; number <= 14; number = number + 2)
 // //     console.log(number)
@@ -42,5 +42,12 @@
 // while (number <= 12) {
 //     console.log(number);
 //     number = number +2;
+// }
+
+//break and continue
+// for (var i = 0; i < 10; i++) {
+//     if (i == 2) continue;
+//     else if (i == 5) break;
+//     console.log(i)
 // }
 
