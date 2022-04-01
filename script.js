@@ -2,10 +2,10 @@ let canvas = document.querySelector("canvas");
 
 let ctx = canvas.getContext("2d");
 let width = canvas.width = window.innerWidth;
-let height = window.screen.height
+let height = canvas.height = window.innerHeight
 let str = "A+jk js:2 @dfs 17 tr YY ufds M5r P87 #18 $!& ^dfs $Ew er JH # $ * . (! ;) ,: :";
 let matrix = str.split("");
-let font = 12;
+let font = 18;
 let col = width / font;
 let arr = [];
 
@@ -16,7 +16,7 @@ for(let i = 0; i < col; i++) {
 const draw = () => {
     ctx.fillStyle = "rgba(0,0,0,0.05)";
     ctx.fillRect(0, 0, width, height);
-    ctx.fillStyle = "red";
+    ctx.fillStyle = "gold";
     ctx.font = `${font}px system-ui`;
 
     for(let i = 0; i < arr.length; i++) {
